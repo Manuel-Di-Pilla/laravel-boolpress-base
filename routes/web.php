@@ -17,3 +17,4 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 Route::resource('post', 'PostController');
+Route::resource('photos', 'PhotoController');
